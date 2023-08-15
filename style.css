@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f0f5f9, #c9d6df);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.logo a {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
+
+.navigation a {
+    font-size: 1.2em;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #333;
+}
+
+.Motto {
+    text-align: center;
+    padding: 150px;
+}
+
+.signbtn {
+    padding: 8px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-text-fill-color: #555;
+}
+
+.signbtn:hover {
+    background-color: #555;
+    color: #fff;
+    -webkit-text-fill-color: white;
+}
+
+.Start {
+    padding: 8px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.Start:hover {
+    cursor: pointer;
+    
+}
+
+/* the start button wont change should i add h3 to the function? */
+/* I guess? whatever you think it best
+oh wait its because it class its a dot not #
+alright its fixed */
+
+/* these aren't the final colors, these are only for sepearating the parts right now */ 

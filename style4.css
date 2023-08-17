@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f0f5f9; /* Uniform background color */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+}
+
+.navigation a {
+    font-size: 1.2em;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #333;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.therapist-list {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.therapist-box {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.therapist-box:hover {
+    background-color: #f5f5f5;
+}
+
+.therapist-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.therapist-details {
+    flex: 1;
+}
+
+.therapist-details h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.therapist-details p {
+    color: #888;
+    margin: 5px 0;
+}
+
+.chat-box {
+    flex: 2;
+    padding: 20px;
+}
+
+.chat-messages {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: auto; /* Move to the bottom */
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+}
+
+.chat-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.chat-input button:hover {
+    background-color: #0056b3;
+}
